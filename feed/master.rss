@@ -6,14 +6,10 @@
   <link>http://www.w3schools.com</link>
   <description>Free web building tutorials</description>
   <item>
-    <title>RSS Tutorial</title>
-    <link>http://www.w3schools.com/rss</link>
-    <description>New RSS tutorial on W3Schools</description>
-  </item>
-  <item>
-    <title>XML Tutorial</title>
-    <link>http://www.w3schools.com/xml</link>
-    <description>New XML tutorial on W3Schools</description>
+    <title>Ritorno online</title>
+    <link>http://unilab.github.io</link>
+    <description>Il portale &egrave; tornato online!</description>
+    <pubDate>Sat, 17 May 2014 19:16:06 +0200</pubDate>
   </item>
 </channel>
 
