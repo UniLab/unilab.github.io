@@ -1,0 +1,29 @@
+    body                {  }
+
+    *::selection        { background: #bd1a11; color: #fff; }
+    *::-moz-selection   { background: #bd1a11; color: #fff; }
+    *::-webkit-selection{ background: #bd1a11; color: #fff; }
+    
+    /* News dal portale UNICAL */
+    #news-widget        { display: none; }
+	#news-widget ul li  { }
+
+    .rssFeed            {  }
+    .rssFeed h4         { font-size: 10pt; }
+    .rssFeed div        { font-size: 8pt; }
+    .rssFeed a          {  }
+    .rssFeed a:hover    {  }
+
+    .rssHeader          { display: none; float: left; margin: 6px; }
+    .rssBody            { margin: 6px; text-align: left; }
+    .rssRow p           { display: none; }
+    
+    /* News dal Forum */
+    #news-content       { }
+
+    .ItemTitle          { font-size: 18pt; }
+    .ItemTitle a        { color:#4EBAFF; text-decoration:none }
+    .ItemTitle a:hover  { text-decoration:underline }
+
+    .ItemContent        { text-align: justify; }
+    .ItemDate           {  }

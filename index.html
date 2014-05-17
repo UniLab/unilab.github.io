@@ -1,1 +1,215 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UniLab - Portale di Ingegneria Informatica UNICAL</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-responsive.css">
+    <link rel="stylesheet" href="css/docs.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114x114.png" />
+</head>
+
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+          
+                <!-- <a class="brand" href="#">UniLab</a> -->
+                <a href="http://www.uni-lab.eu/"><img src="./img/logo.png" class="pull-left" style="height: 40px; margin: 0 3px 0 3px;" /></a>
+                
+                <div class="nav-collapse collapse">
+                    <ul class="nav">
+                        <li class="active"><a href="#"><i class="icon-home"></i> Home</a></li>
+                        <li><a href="https://www.facebook.com/groups/ingegneria.informatica.unical/"><i class="icon-th-list"></i> Gruppo Facebook</a></li>
+                        <li><a href="https://www.facebook.com/pages/UniLab/149466028530376"><i class="icon-th-list"></i> Pagina Facebook</a></li>
+                        <!--
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Chi siamo</a></li>
+                                <li><a href="#">Il Progetto</a></li>
+                                <li class="divider"></li>
+                                <li class="nav-header">Segnalazioni</li>
+                                <li><a href="#">Lezioni</a></li>
+                                <li><a href="#">Appunti</a></li>
+                                <li><a href="#">Varie</a></li>
+                            </ul>
+                        </li>
+                        -->
+                    </ul>
+                    
+                    
+                </div> <!-- /nav-collapse -->
+            </div>
+        </div>
+    </div> <!-- /navbar -->
+    
+    <header class="jumbotron subhead">
+        <div class="container">
+            <h1>UniLab</h1>
+            <p class="lead">
+                Benvenuti nel nuovo <strong>Portale di Ingegneria Informatica UNICAL</strong>, creato dagli studenti per gli studenti!
+            </p>
+            <p>
+                Il Portale consentirà l'accesso a <em>News</em>, <em>Informazioni Utili</em>, <em>Sorgenti</em> e <em>Download</em> vari. Inoltre il <strong>Forum</strong> consentirà a tutti gli utenti di discutere insieme di problemi relativi alle varie materie di studio!
+                
+                Per visualizzare i contenuti è sufficiente registrarsi cliccando sul pulsante in alto.
+            </p>
+            
+            <div class="pull-right" style="margin-right: 12px; text-align: center;">
+                <h4>Buona navigazione!</h4>
+                <h4 class="text-warning">Il Team</h4>
+            </div>
+        </div>
+    </header> <!-- /header -->
+    
+    <div class="bs-docs-social">
+        <div class="container">
+            <div id="news-widget"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="span9">    
+                <div class="page-header">
+                    <h1>News</h1>
+                </div>
+                
+                <div id="news-content"></div>
+            </div>
+        
+            <div class="span3">
+                <h2 style="opacity: 0;">Sidebar</h2>
+                
+                <div class="well well-small">
+                    <ul class="nav nav-list">
+                        <li class="nav-header">UNICAL Online</li>
+                        <li><a href="https://sos.unical.it/" target="_blank">Servizi Online per gli Studenti</a></li>
+                        <li><a href="https://soscr.unical.it/DesktopDefault.aspx" target="_blank">Servizi Online Centro Residenziale</a></li>
+                        <li><a href="http://pianidistudio.unical.it/PDS_DAD/gissweb.home" target="_blank">Piani di Studio</a></li>
+                        <li><a href="http://www.ingegneria.unical.it/webingegneria/index.asp" target="_blank">Facoltà di Ingegneria</a></li>
+                        <li><a href="http://www.segreterie.unical.it/index.html" target="_blank">Segreteria</a></li>
+                        <li class="nav-header">Link Utili</li>
+                        <li><a href="http://icampus.ingegneria.unical.it/" target="_blank">ICampus</a></li>
+                        <li><a href="https://didattica.unical.it/cosenza/index.do" target="_blank">UNIWEX</a></li>
+                    </ul>
+                </div>
+                
+                <div class="well well-small">
+                    <ul class="nav nav-list">
+                        <li class="nav-header">Risorse per gli Studenti</li>
+                        <li><a href="http://www.ingegneria.unical.it/webingegneria/AreaStudenti/sceltaCDL.asp?Destinazione=Orario/sistema_provvisorio/index.asp" target="_blank">Orari delle Lezioni</a></li>
+                        <li><a href="http://www.ingegneria.unical.it/webingegneria/inglese/orari/index.htm" target="_blank">Orari Inglese</a></li>
+                        <li><a href="http://www2.ingegneria.unical.it/servizi/2/calendarioesami/index_studenti.asp" target="_blank">Calendario Esami</a></li>
+                        <li><a href="http://www.ingegneria.unical.it/msdnaa/" target="_blank">MSDN Accademic Alliance</a></li>
+                    </ul>
+                </div>
+				<!-- a chi cazz serva ? :P 
+                <div class="well well-small">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed venenatis enim. Curabitur sit amet felis eu ligula congue imperdiet. Pellentesque accumsan venenatis lacus eu tempor. Quisque eu nibh dolor. Cras tincidunt, justo non dictum aliquam, felis justo varius risus, nec tempor lacus turpis sed orci.</p>
+                </div>
+				-->
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="span4">
+                <h3>Facebook</h3>
+                <iframe src="https://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FUniLab%2F149466028530376&amp;width=292&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;border_color=%23fff&amp;stream=false&amp;header=false&amp;appId=320238371348434" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100%; height:258px;" allowTransparency="true"></iframe>
+            </div>
+            
+            <div class="span4">
+                <h3>Team</h3>
+                <p>
+                    Il Portale viene portato avanti dalla nostra passione per l'informatica e dal nostro impegno! Faremo sempre il possibile per offrirvi il meglio!
+                </p>
+                <ul class="nav nav-list">
+                    <li><a href="#" target="_blank">Alessandro Mallamaci</a></li>
+                    <li><a href="#" target="_blank">Andrea Genuise</a></li>
+                    <li><a href="http://unnikked.tk" target="_blank">Nicola Malizia</a></li>
+                    <li><a href="http://blog.stamber.ga" target="_blank">Salvatore Gentile</a></li>
+                    <li><a href="#" target="_blank">Salvatore Laganà</a></li>
+                </ul>
+            </div>
+            
+            <div class="span4">
+                <div id="imgSlider" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="active item">
+                            <img src="./img/carousel/unical1.jpg" alt="">
+                            <!--<div class="carousel-caption">
+                                <h4>Slide 1</h4>
+                                <p>Esempio di caption per Slide 1... :D</p>
+                            </div>-->
+                        </div>
+                        <div class="item">
+                            <img src="./img/carousel/unical2.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <a class="carousel-control left" href="#imgSlider" data-slide="prev">&lsaquo;</a>
+                    <a class="carousel-control right" href="#imgSlider" data-slide="next">&rsaquo;</a>
+                </div>
+            </div>
+        </div>
+    </div> <!-- /container -->
+
+    
+        
+    <footer class="footer">
+        <div class="container">
+            <p class="pull-left">I contenuti del Portale sono rilasciati sotto licenza <a href="http://sam.zoy.org/wtfpl/" target="_blank">WTFPL</a></p>
+            <!--
+                
+                        DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
+                                Version 2, December 2004 
+    
+             Copyright (C) 2004 Sam Hocevar <sam@hocevar.net> 
+
+             Everyone is permitted to copy and distribute verbatim or modified 
+             copies of this license document, and changing it is allowed as long 
+             as the name is changed. 
+
+                        DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
+               TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION 
+
+              0. You just DO WHAT THE FUCK YOU WANT TO.
+
+            -->
+                
+            <p class="pull-right">&copy 2012 UniLab</p>
+        </div>
+    </footer> <!-- /footer -->
+
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/news/jquery.zrssfeed.js"></script>
+    <script src="js/news/jquery.easy-ticker.js"></script>
+    <script src="js/news/FeedEk.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
