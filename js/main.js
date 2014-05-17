@@ -20,7 +20,7 @@ $(function() {
     /* News dal Forum */
     $("#news-content").FeedEk({
         //FeedUrl : "http://www.uni-lab.eu/vanilla/index.php?p=/categories/novit%C3%A0/feed.rss",
-        FeedUrl : "../feed/master.rss",
+        FeedUrl : "http://unilab.github.io/feed/master.rss",
         MaxCount : 3,
         ShowDesc : true,
         ShowPubDate: true
